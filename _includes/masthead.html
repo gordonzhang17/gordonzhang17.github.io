@@ -4,10 +4,12 @@
   {% assign metadata_styles = 'd-flex flex-items-center mb-3' %}
 {% endif %}
 
-<img src="{{ user.avatar_url }}" class="circle mb-3" style="max-width: 150px;">
+<img src="assets/gordon_zhang_image.jpg" style="max-width: 350px;">
 <h1 class="{% if site.style == 'dark' %}text-white{% endif %} mb-2 lh-condensed">{% if user.name %}{{ user.name }}{% else %}{{ user.login }}{% endif %}</h1>
 <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-  {{ user.bio }}
+  Hi there. I am a recent graduate of UBC in the Computer Science program. I am based in Vancouver, BC.
+  In my free time, I enjoy playing sports such as tennis and basketball.
+  This is a work in progress. 
 </p>
 
 {% if include.metadata %}
@@ -48,7 +50,7 @@
       </div>
     {% endif %}
     {% if user.hireable %}
-      <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
+      <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire. Please contact me on LinkedIn!</span>
     {% endif %}
   </div>
 {% endif %}

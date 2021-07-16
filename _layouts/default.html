@@ -1,5 +1,13 @@
 {% include header.html %}
 
+<!-- TODO: work on navbar and how to link it to different parts of HTML -->
+<nav class="d-flex flex-justify-center py-5 f5">
+  <a class="m-2" href="/"> Main </a>
+  <a class="m-2" href="/_includes/education.html">Education</a>
+  <a class="m-2"href="#contact">Projects</a>
+  <a class="m-2" href="interests.html">Interests</a>
+</nav>
+
 {% if site.layout == 'stacked' %}
   <div class="container-lg py-6 p-responsive text-center">
     {% include masthead.html metadata=false %}
