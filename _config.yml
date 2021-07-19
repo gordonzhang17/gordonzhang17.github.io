@@ -26,7 +26,10 @@ projects:
     archived: false
     forks: true
     projects:
-    # - repo-name
+     - SpotifyPlus
+     - BookFace
+     - Chat-App-demo
+     - NHLPlayerStatsWithGUI
 
 social_media:
   # behance: your_username
