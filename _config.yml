@@ -9,8 +9,7 @@ plugins:
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
@@ -19,17 +18,18 @@ defaults:
 projects:
   sort_by: pushed
   # sort_by options:
-  #   - pushed
+  #   - pushedß
   #   - stars
   limit: 9
   exclude:
     archived: false
     forks: true
     projects:
-     - SpotifyPlus
-     - BookFace
-     - Chat-App-demo
-     - NHLPlayerStatsWithGUI
+      - SampleStoreInventoryWebApp
+      - SpotifyPlus
+      - BookFace
+      - Chat-App-demo
+      - NHLPlayerStatsWithGUI
 
 social_media:
   # behance: your_username
