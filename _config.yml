@@ -18,18 +18,13 @@ defaults:
 projects:
   sort_by: pushed
   # sort_by options:
-  #   - pushedß
+  #   - pushed
   #   - stars
   limit: 9
   exclude:
     archived: false
     forks: true
     projects:
-      - SampleStoreInventoryWebApp
-      - SpotifyPlus
-      - BookFace
-      - Chat-App-demo
-      - NHLPlayerStatsWithGUI
 
 social_media:
   # behance: your_username
